@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class num {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n= 20; int m = 60;
+        System.out.println("Enter the number:");
+        int start = sc.nextInt();
+        System.out.println("Enter the number2:");
+        int end = sc.nextInt();
+        if(start % 3 == 0) 
+            while(start < n) {
+                System.out.println( "number is divisible by three is: " + start);
+                start+=3;
+            }
+                if(end % 12 == 0)
+                while(end < m) {
+                    System.out.println("number is divisible by twelve is: " +end);
+                    end+=12;
+                }
+            }
+        }
