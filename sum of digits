@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+            int n =1; int m=0; 
+        System.out.print("Enter the number: ");
+        int num =sc.nextInt();
+        while( n <= 4){
+          int sum = num % 10;
+           m = m + sum;
+           num=num/10;
+             n++;
+        }
+    
+        System.out.println("sumof digit is: " +m);
+    }
+}
