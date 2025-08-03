@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class main{
+    public static void main(String[]args){
+        int i = 1; int m=0; 
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the integer:");
+        int num = sc.nextInt();
+        m = num%10;
+        while(i<num){
+             num = num/10;
+            i++;
+        }
+        System.out.println("sum of the first and last digit is : " +(m+num));
+    }
+}
