@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the no: ");
+        int num = sc.nextInt();
+       int  num1 = num * num;
+        System.out.println("square of the given no is: " +num1);
+        int last = num1 % 10;
+        int num2 = num1/10;
+        int first = num2 % 10;
+        int sum = last + first;
+        if(num == sum)
+        System.out.println("neon");
+        else
+        System.out.println("not neon");
+}
+}
