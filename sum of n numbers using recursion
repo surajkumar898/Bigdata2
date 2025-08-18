@@ -1,0 +1,15 @@
+class f2{
+   public static int sumofN(int n){
+    if(n>=2) {
+int sum = n + sumofN(n-1);
+return sum ; }
+else {
+    return 1;
+}
+   }
+   public static void main(String[] args){
+   int n = 10;
+   int result= sumofN(n);
+   System.out.println("sum of n numbers is: " +result);
+   }
+   }
