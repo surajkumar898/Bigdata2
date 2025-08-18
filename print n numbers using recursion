@@ -1,0 +1,12 @@
+class f2{
+   public static void addnum(int n){
+
+    if(n<=10) {
+    System.out.println(n);
+    addnum(n+1);
+    }
+}
+   public static void main(String[] args){
+    addnum(1);
+   }
+   }
