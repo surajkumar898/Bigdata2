@@ -1,0 +1,20 @@
+import java.util.Arrays;
+
+class nesarray {
+    public static void main(String[] args){
+        int [] a = {4,5,6,7};
+        int [] b = {1,2,3,8};
+        int [] c = new  int[8];
+        int j =0; int k=0;
+       while(j< a.length){
+         c[j]  = a[j];
+         j++;
+       }
+       while(k < b.length){
+        c[j] = b[k];
+        j++;
+        k++;
+        }
+        System.out.println(Arrays.toString(c));
+        }
+    }
